@@ -35,4 +35,4 @@ The Nmap command serves a plethora of use cases in the realm of network security
 
 
 
-#This repository contains various examples, usage scenarios, and best practices for employing the Nmap command effectively. Additionally, it includes references to official documentation and resources for users to delve deeper into Nmap's capabilities and features. Always ensure that you have the necessary permissions to scan a network, as unauthorized scanning may be illegal and unethical. Use Nmap responsibly and adhere to the laws and regulations of your jurisdiction.
+This repository contains various examples, usage scenarios, and best practices for employing the Nmap command effectively. Additionally, it includes references to official documentation and resources for users to delve deeper into Nmap's capabilities and features. Always ensure that you have the necessary permissions to scan a network, as unauthorized scanning may be illegal and unethical. Use Nmap responsibly and adhere to the laws and regulations of your jurisdiction.
