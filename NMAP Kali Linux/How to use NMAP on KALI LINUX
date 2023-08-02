@@ -14,7 +14,7 @@ Results.
 Notice it shows the list of ports, protocols, and state of the ports. This could be a useful tool for discovering vulnerabilities or hardening a hosts networking configuration. 
 
 Port Scanning
-
+![Port Scanning](https://github.com/CTheTechGuru/Cybersecurity-Labs/assets/125163096/41456624-9988-430b-9987-e0975f144607)
 
 We can target specific ports instead of doing a full nmap scan. To achieve this run the command
 
