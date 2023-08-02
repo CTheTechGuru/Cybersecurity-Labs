@@ -1,0 +1,36 @@
+1.This is how you use the NMAP command. 
+
+It is important you only run on servers you have permission to run this command on. You could  potentially affect services on a domain without permission which could result in consequences. 
+
+Scanme.nmap.org gives us permission to scan with the nmap command;however, It is noted to not abuse or the service. 
+
+First we will use the dig command to translate the ip address of scanme.nmap.org 
+
+
+
+Or IP id 45.33.32.156 We will now use the nmap command to scan the scanme.nmap.org 
+
+Results. 
+Notice it shows the list of ports, protocols, and state of the ports. This could be a useful tool for discovering vulnerabilities or hardening a hosts networking configuration. 
+
+Port Scanning
+
+
+We can target specific ports instead of doing a full nmap scan. To achieve this run the command
+
+nmap -p [desired port number] (ip addr)
+Ex: nmap -p 22 192.168.0.1
+
+Fingerprinting / OS Detection
+
+nmap -O (ip addr)
+Ex: nmap -O 22 192.168.0.1
+
+Aggressive Scan - Allows us to retrieve OS detection, traceroute, version detection, ports, services public keys, services and more. 
+
+nmap -A  (ip addr)
+Ex: nmap  -A 192.168.0.1
+
+
+Output results of a nmap scan to a file 
+Nmap -o /home/(user)/nmap.org.txt -A Target-IP
